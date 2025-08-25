@@ -4,7 +4,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex flex-col">
       <header className="flex justify-between items-center px-8 py-4 bg-white shadow-sm">
-        <h1 className="text-2xl font-bold text-blue-600">ConectaPro</h1>
+        <h1 className="text-2xl font-bold text-blue-600">SoloClick</h1>
         <nav className="space-x-6 text-gray-600 font-medium">
           <Link to="/login" className="hover:text-blue-600">
             Iniciar sesión
@@ -19,7 +19,7 @@ export default function HomePage() {
         </h2>
 
         <p className="text-lg md:text-xl text-gray-600 max-w-2xl mb-10">
-          ConectaPro une a profesionales de todas las áreas con usuarios que
+          SoloClick une a profesionales de todas las áreas con usuarios que
           buscan contratar servicios de confianza.
         </p>
 
@@ -55,7 +55,7 @@ export default function HomePage() {
       </main>
 
       <footer className="bg-white shadow-inner py-6 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} ConectaPro. Todos los derechos reservados.
+        © {new Date().getFullYear()} SoloClick. Todos los derechos reservados.
       </footer>
     </div>
   );
